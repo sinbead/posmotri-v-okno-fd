@@ -140,6 +140,7 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #fff;
+  display: block;
 }
 
 .content__video-card-title {
@@ -220,8 +221,7 @@ ol {
   width: 19px;
   height: 19px;
   margin-right: 5px;
-  position: relative;
-}
+  }
 
 .search-form__pseudo-checkbox:active::after,
 input[type="checkbox"]:checked + span::after {
@@ -229,9 +229,8 @@ input[type="checkbox"]:checked + span::after {
   background-color: #ffffff;
   width: 15px;
   height: 15px;
-  position: absolute;
-  top: 1px;
-  left: 1px;
+  display: block;
+  margin: 1px 0 0 1px;
 }
 
 .search-form__pseudo-checkbox:has(:focus-visible) {
@@ -281,10 +280,6 @@ input[type="checkbox"]:checked + span::after {
 .button:focus-visible {
   outline: 1px solid #ffffff;
   outline-offset: 1px;
-}
-
-.content__card-link {
-  display: block;
 }
 
 .content__card-link:focus {
