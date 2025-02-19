@@ -191,6 +191,7 @@ ol {
 .search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
+
 .search-form__textfield {
   color: #ffffff;
   width: 225px;
