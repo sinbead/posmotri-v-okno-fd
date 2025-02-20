@@ -162,7 +162,7 @@ ol {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;  
+  -webkit-box-orient: vertical;
 }
 
 .visually-hidden {
@@ -223,7 +223,7 @@ ol {
   width: 19px;
   height: 19px;
   margin-right: 5px;
-  }
+}
 
 .search-form__pseudo-checkbox:active::after,
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
